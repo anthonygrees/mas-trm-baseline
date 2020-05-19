@@ -1,7 +1,7 @@
 title "MAS TRGM - 7 IT SERVICE MANAGEMENT"
 
 ## Looping example WannaCry Vulnerability Check
-control '7.1.2-Patch_Management' do
+control 'MAS TRGM 7.1.2 - Patch_Management' do
     impact 0.8
     title 'This test checks that a numberof Windows Patches and Hotfixs are installed'
   

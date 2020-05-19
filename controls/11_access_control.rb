@@ -2,7 +2,7 @@
 
 title "MAS TRGM - 11 ACCESS CONTROL"
 
-control 'TRMG 11.1.5-windows-001' do
+control 'MAS TRMG 11.1.5 - windows-001' do
   title 'Ensure \'Enforce password history\' is set to \'24 or more password(s)\''
   desc 'This policy setting determines the number of renewed, unique passwords that have to be associated with a user account before you can reuse an old password. The value for this policy setting must be between 0 and 24 passwords. The default value for Windows Vista is 0 passwords, but the default setting in a domain is 24 passwords. To maintain the effectiveness of this policy setting, use the Minimum password age setting to prevent users from repeatedly changing their password.
 
@@ -22,7 +22,7 @@ control 'TRMG 11.1.5-windows-001' do
   end
 end
 
-control 'TRMG 11.1.5-windows-002' do
+control 'MAS TRMG 11.1.5 - windows-002' do
   title 'Ensure \'Maximum password age\' is set to \'60 or fewer days, but not 0\''
   desc 'This policy setting defines how long a user can use their password before it expires.
 
@@ -49,7 +49,7 @@ control 'TRMG 11.1.5-windows-002' do
   end
 end
 
-control 'TRMG 11.1.5-windows-003' do
+control 'MAS TRMG 11.1.5 - windows-003' do
   title 'Ensure \'Minimum password age\' is set to \'1 or more day(s)\''
   desc 'This policy setting determines the number of days that you must use a password before you can change it. The range of values for this policy setting is between 1 and 999 days. (You may also set the value to 0 to allow immediate password changes.) The default value for this setting is 0 days.
 
@@ -69,7 +69,7 @@ control 'TRMG 11.1.5-windows-003' do
   end
 end
 
-control 'TRMG 11.1.5windows-004' do
+control 'MAS TRMG 11.1.5 - windows-004' do
   title 'Ensure \'Minimum password length\' is set to \'14 or more character(s)\''
   desc 'This policy setting determines the least number of characters that make up a password for a user account. There are many different theories about how to determine the best password length for an organization, but perhaps "pass phrase" is a better term than "password." In Microsoft Windows 2000 and newer, pass phrases can be quite long and can include spaces. Therefore, a phrase such as "I want to drink a $5 milkshake" is a valid pass phrase; it is a considerably stronger password than an 8 or 10 character string of random numbers and letters, and yet is easier to remember. Users must be educated about the proper selection and maintenance of passwords, especially with regard to password length. In enterprise environments, the ideal value for the Minimum password length setting is 14 characters, however you should adjust this value to meet your organization\'s business requirements.
 
@@ -89,7 +89,7 @@ control 'TRMG 11.1.5windows-004' do
   end
 end
 
-control 'TRMG 11.1.5-windows-005' do
+control 'MAS TRMG 11.1.5 - windows-005' do
   title 'Ensure \'Password must meet complexity requirements\' is set to \'Enabled\''
   desc 'This policy setting checks all new passwords to ensure that they meet basic requirements for strong passwords.
   When this policy is enabled, passwords must meet the following minimum requirements: -- Not contain the user\'s account name or parts of the user\'s full name that exceed two consecutive characters
@@ -117,7 +117,7 @@ control 'TRMG 11.1.5-windows-005' do
   end
 end
 
-control 'TRMG 11.1.5-windows-006' do
+control 'MAS TRMG 11.1.5 - windows-006' do
   title 'Ensure \'Store passwords using reversible encryption\' is set to \'Disabled\''
   desc 'This policy setting determines whether the operating system stores passwords in a way that uses reversible encryption, which provides support for application protocols that require knowledge of the user\'s password for authentication purposes. Passwords that are stored with reversible encryption are essentially the same as plaintext versions of the passwords.
 
@@ -137,7 +137,7 @@ control 'TRMG 11.1.5-windows-006' do
   end
 end
 
-control 'TRMG 11.2.3-windows-353' do
+control 'MAS TRMG 11.2.3 - windows-353' do
   title 'Ensure \'Allow Remote Shell Access\' is set to \'Disabled\''
   desc 'This policy setting allows you to manage configuration of remote access to all supported shells to execute scripts and commands.
 
@@ -162,7 +162,7 @@ control 'TRMG 11.2.3-windows-353' do
   end
 end
 
-control 'TRMG 11.2.3-windows-095' do
+control 'MAS TRMG 11.2.3 - windows-095' do
   title 'Ensure \'Network access: Restrict clients allowed to make remote calls to SAM\' is set to \'Administrators: Remote Access: Allow\''
   desc 'This policy setting allows you to restrict remote RPC connections to SAM.
 
@@ -187,7 +187,7 @@ control 'TRMG 11.2.3-windows-095' do
   end
 end
 
-control 'TRMG 11.2.3-windows-113' do
+control 'MAS TRMG 11.2.3 - windows-113' do
   title 'Ensure \'User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode\' is set to \'Prompt for consent on the secure desktop\''
   desc 'This policy setting controls the behavior of the elevation prompt for administrators.
 
@@ -209,7 +209,7 @@ control 'TRMG 11.2.3-windows-113' do
   end
 end
 
-control 'TRMG 11.2.3-windows-114' do
+control 'MAS TRMG 11.2.3 - windows-114' do
   title 'Ensure \'User Account Control: Behavior of the elevation prompt for standard users\' is set to \'Automatically deny elevation requests\''
   desc 'This policy setting controls the behavior of the elevation prompt for standard users.
 

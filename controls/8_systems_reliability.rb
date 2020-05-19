@@ -1,6 +1,6 @@
 title "MAS TRGM - 8 SYSTEMS RELIABILITY, AVAILABILITY AND RECOVERABILITY"
 
-control 'TRGM8.2.3-windows-302' do
+control 'MAS TRGM 8.2.3 - windows-302' do
     title 'Ensure \'Allow Message Service Cloud Sync\' is set to \'Disabled\''
     desc 'This policy setting allows backup and restore of cellular text messages to Microsoft\'s cloud services.
   
@@ -24,7 +24,7 @@ control 'TRGM8.2.3-windows-302' do
     end
   end
 
-  control 'TRGM8.2.3-windows-017' do
+  control 'MAS TRGM 8.2.3 - windows-017' do
     title 'Ensure \'Back up files and directories\' is set to \'Administrators\''
     desc 'This policy setting allows users to circumvent file and directory permissions to back up the system. This user right is enabled only when an application (such as NTBACKUP) attempts to access a file or directory through the NTFS file system backup application programming interface (API). Otherwise, the assigned file and directory permissions apply.
   

@@ -22,7 +22,22 @@ inspec exec .
 
 Once executed, you will see an output like this to the STDOUT
 ```bash
+[FAIL]  7.1.2-Patch_Management: This test checks that a numberof Windows Patches and Hotfixs are installed (3 failed)
+     [FAIL]  Windows Hotfix KB4012598 is expected to be installed
+     expected that `Windows Hotfix KB4012598` is installed
+     [FAIL]  Windows Hotfix KB4042895 is expected to be installed
+     expected that `Windows Hotfix KB4042895` is installed
+     [FAIL]  Windows Hotfix KB4041693 is expected to be installed
+     expected that `Windows Hotfix KB4041693` is installed
+  [SKIP]  TRGM8.2.3-windows-302: Ensure 'Allow Message Service Cloud Sync' is set to 'Disabled'
+     [SKIP]  Skipped control due to only_if condition: Only for Windows Server 2016, 2019 and if attribute('level_1_or_2') is set to 2
+  [FAIL]  TRGM8.2.3-windows-017: Ensure 'Back up files and directories' is set to 'Administrators'
+     [FAIL]  Security Policy SeBackupPrivilege is expected to eq #<Inspec::Input::NO_VALUE_SET:0x00000000085a6a38 @name="se_backup_privilege">
+     can't convert Inspec::Input::NO_VALUE_SET to Array (Inspec::Input::NO_VALUE_SET#to_ary gives Inspec::Input::NO_VALUE_SET)
 
+
+Profile Summary: 4 successful controls, 8 control failures, 3 controls skipped
+Test Summary: 13 successful, 10 failures, 3 skipped
 ```
 
 ## Report into Chef Automate

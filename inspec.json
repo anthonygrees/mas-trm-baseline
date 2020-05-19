@@ -3,7 +3,7 @@
         "automate" : {
             "stdout" : "false",
             "url" : "https://anthony-a2.chef-demo.com/data-collector/v0",
-            "token" : "e05da1DwQ1w0Zpk6Pijj7M6isks=",
+            "token" : "lCm1RP27TUCqvX8fdXynrIPUEWA=",
             "insecure" : true,
             "node_name" : "MAS_TRM_Windows_Node",
             "node_uuid" : "12345678-1234-1234-1234-123456789012",
