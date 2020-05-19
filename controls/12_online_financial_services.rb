@@ -1,4 +1,4 @@
-title "MAS TRGM - 12 Online Financial Services"
+title "MAS TRGM - 12 ONLINE FINANCIAL SERVICES"
 
 ontrol 'TRGM 12.1.3-windows-106' do
     title 'Ensure \'Network security: Minimum session security for NTLM SSP based (including secure RPC) clients\' is set to \'Require NTLMv2 session security, Require 128-bit encryption\''

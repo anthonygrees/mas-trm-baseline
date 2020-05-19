@@ -1,6 +1,6 @@
 # copyright: 2018, The Authors
 
-title "MAS TRGM - 11 Access Control"
+title "MAS TRGM - 11 ACCESS CONTROL"
 
 control 'TRMG 11.1.5-windows-001' do
   title 'Ensure \'Enforce password history\' is set to \'24 or more password(s)\''

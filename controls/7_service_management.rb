@@ -1,4 +1,4 @@
-title "MAS TRGM - 7 Service Management"
+title "MAS TRGM - 7 IT SERVICE MANAGEMENT"
 
 ## Looping example WannaCry Vulnerability Check
 control '7.1.2-Patch_Management' do
