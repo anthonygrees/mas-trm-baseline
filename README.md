@@ -1,10 +1,44 @@
 # MAS TRM Chef InSpec Baseline
 
 ## About
-A Chef InSpec compliance profile for the Monetary Authority of Singapore (MAS) - Checklist for Technology Risk Management (TRM) Guidelines
+A Chef InSpec compliance profile for the Monetary Authority of Singapore (MAS) - Checklist for Technology Risk Management Guidelines (TRM or TRMG)
 
 
-## Source 
+## Execute on the CLI
+To run this InSpec profile you must first clone the repo
+```bash
+git clone https://github.com/anthonygrees/mas-trm-baseline
+```
+
+Change directory into the InSpec profile directory
+```bash
+cd mas-trm-baseline
+```
+
+Execute the profile
+```bash
+inspec exec .
+```
+
+Once executed, you will see an output like this to the STDOUT
+```bash
+
+```
+
+## Report into Chef Automate
+Chef the configuration in the ```inspec.json```
+
+Execute the profile
+```bash
+inspec exec . --json-config inspec.json
+```
+
+## Chef InSpec
+Don't have InSpec installed? 
+
+Here you go - https://downloads.chef.io/inspec
+
+## Source of MAS TRM
 Monetary Authority of Singapore
 
 Checklist for Technology Risk Management Guidelines
@@ -12,7 +46,6 @@ Checklist for Technology Risk Management Guidelines
 Helps financial institutions evaluate their controls and processes against the relevant sections in the Technology Risk Management Guidelines.
 
 https://www.mas.gov.sg/regulation/forms-and-templates/checklist-for-technology-risk-management-guidelines
-
 
 
 ## License and Author
