@@ -48,6 +48,8 @@ Execute the profile
 inspec exec . --json-config inspec.json
 ```
 
+![MAS Report](/images/mas-report.png)
+
 ## Chef InSpec
 Don't have InSpec installed? 
 
