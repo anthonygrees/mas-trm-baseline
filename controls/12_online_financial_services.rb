@@ -1,6 +1,6 @@
 title "MAS TRGM - 12 ONLINE FINANCIAL SERVICES"
 
-control 'MAS TRGM 12.1.3 - windows-106' do
+control 'MAS TRGM 12.1.3a - Security requirements  do
     title 'Ensure \'Network security: Minimum session security for NTLM SSP based (including secure RPC) clients\' is set to \'Require NTLMv2 session security, Require 128-bit encryption\''
     desc 'This policy setting determines which behaviors are allowed by clients for applications using the NTLM Security Support Provider (SSP). The SSP Interface (SSPI) is used by applications that need authentication services. The setting does not modify how the authentication sequence works but instead require certain behaviors in applications that use the SSPI.
   
@@ -22,7 +22,7 @@ control 'MAS TRGM 12.1.3 - windows-106' do
     end
   end
   
-  control 'MAS TRGM 12.1.3 - windows-107' do
+  control 'MAS TRGM 12.1.3b - Security requirements ' do
     title 'Ensure \'Network security: Minimum session security for NTLM SSP based (including secure RPC) servers\' is set to \'Require NTLMv2 session security, Require 128-bit encryption\''
     desc ' This policy setting determines which behaviors are allowed by servers for applications using the NTLM Security Support Provider (SSP). The SSP Interface (SSPI) is used by applications that need authentication services. The setting does not modify how the authentication sequence works but instead require certain behaviors in applications that use the SSPI.
   
